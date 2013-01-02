@@ -1,8 +1,28 @@
 Welcome to EcoLoad! 
 
-01-03-2011
-----------
+This lets your manage your ecological data using a single GUI. 
 
-EcoLoad is developed under the GPL 3.0 license
+Track your datasets over time, and search through your data. Easily exportable to readable formats for your scientific applications.
 
-It is still under development, and not ready for production use.
+-- Supported Data Structures --
+
+Time-series with attribute types being
+  Spatial 
+  Time
+  Integers
+  Strings
+
+-- Requirements --
+
+Windows XP+ with .NET 4.0+
+Microsoft SQL Server 2008+
+
+EcoLoad make use of spetial data structures for fast retrieval and storage and therefore need a database system that support this feature set. 
+
+-- Install --
+1. Install database and create the database using the SQL script found under the directory "Scripts".
+2. After EcoLoad is installled, setup your database connection under the installation directory using the ecolog.xml file.
+
+-- License --
+EcoLoad is licensed under the GPL 3.0 license
+
