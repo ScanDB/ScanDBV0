@@ -1,8 +1,8 @@
-Welcome to EcoLoad! 
+Welcome to ScanDBV0! 
 
-This lets your manage your ecological data using a single GUI. 
+This lets your manage your ecological data using a single tool. 
 
-Track your datasets over time, and search through your data. Easily exportable to readable formats for your scientific applications.
+Track your datasets over time, and search through them. Easily export them to readable formats for your scientific applications.
 
 -- Supported Data Structures --
 
@@ -17,12 +17,12 @@ Time-series with attribute types being
 Windows XP+ with .NET 4.0+
 Microsoft SQL Server 2008+
 
-EcoLoad make use of spetial data structures for fast retrieval and storage and therefore need a database system that support this feature set. 
+ScanDBV0 make use of spetial data structures for fast retrieval and storage and therefore need a database system that support this feature set. 
 
 -- Install --
 1. Install database and create the database using the SQL script found under the directory "Scripts".
-2. After EcoLoad is installled, setup your database connection under the installation directory using the ecolog.xml file.
+2. After ScanDBV0 is installled, setup your database connection under the installation directory using the ecolog.xml file.
 
 -- License --
-EcoLoad is licensed under the GPL 3.0 license
+ScanDBV0 is licensed under the GPL 3.0 license
 
